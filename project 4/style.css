@@ -1,0 +1,75 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* a pseudo class is indentified with a colon */
+
+a:link {
+    color: palevioletred;
+}
+a:visited {
+   color: cornflowerblue;
+}
+
+a:hover {
+    color: rebeccapurple
+}
+
+h1 {
+     color: orchid;
+  transition: all 1000ms;
+  background-color: bisque;
+  margin: 0;
+}
+
+h1:hover {
+  color: lightpink;
+  font-size: 350%;
+  text-shadow: 5px 5px 5px gray;
+  transform: rotate(180deg);
+}
+
+#link {
+
+}
+
+.item {
+  /* background-color: slateblue; */
+}
+nav ul {
+
+  width: 200px;
+  background-color:antiquewhite;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid mediumvioletred;
+
+}
+
+ul {
+  background-color: darkblue;
+}
+
+nav li {
+  border-bottom: 5px solid mediumvioletred;
+  padding: 5px;
+}
+
+nav li:last-child{
+  border: none;
+}
+nav li:nth-child(odd){
+  background-color: paleturquoise;
+}
+
+nav a {
+  text-decoration: none;
+  color: white !important;
+  transition: all 1000ms
+}
+
+nav a:hover {
+ text-decoration: underline; 
+  background-color: black
+}
