@@ -1,0 +1,16 @@
+h1 {
+
+}
+
+p {
+  /*padding: 15%;*/
+}
+a{
+  /*position: absolute;*/
+}
+#book {
+  background-image: url('../img/macbook-pro.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
