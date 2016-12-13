@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+  float: left;
+  margin-top: 400px;
+  margin-right: 400px;
+  font-size: 75px;
+  font-weight: 800;
+  color: white;
+  text-shadow: 250px;
+  display: inline-block;
+  max-width: 90%
+}
+div {
+  text-align: center;
+  padding-top: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#skiing {
+  background-image: url(../img/Protest_LOWRESS_1548-1701x1111-c-default.jpg);
+  height: 100px;
+
+}
