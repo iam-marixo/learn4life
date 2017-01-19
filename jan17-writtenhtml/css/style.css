@@ -1,0 +1,18 @@
+.circular--square {
+padding-left: 15%;
+padding-right: 10%;
+border-top-left-radius: 40% 40%;
+  border-top-right-radius: 40% 40%;
+  border-bottom-right-radius: 40% 40%;
+  border-bottom-left-radius: 40% 40%;
+}
+
+h2 {
+  color: navy;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: hsl(213, 32%, 31%);
+}

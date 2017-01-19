@@ -1,0 +1,7 @@
+.img-camera {
+  
+  width: 200px; height: 100px;
+   -moz-border-radius: 100px / 50px;
+   -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+}
