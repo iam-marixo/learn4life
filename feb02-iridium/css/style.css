@@ -1,0 +1,64 @@
+header{
+  background-image: url('../img/banner.jpg');
+  background-repeat: no-repeat;
+  border: 10px solid transparent;
+  padding: 0;
+  margin-top: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.one{
+  text-align: center;
+  color: white;
+}
+
+#nav{
+   border-width:1px 0;
+   margin top:10%;
+   margin-bottom: 10%;
+   padding:0;
+   text-align:center;
+}
+#nav li{
+   display:inline-block;
+}
+#nav a{
+   display:inline-block;
+   padding:10px;
+}
+article {
+  width: 55%;
+  display: block;
+  float: left;
+}
+ article img {
+   width:100%;
+ }
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+aside {
+  float:right;
+  width: 35%;
+}
+#graytext {
+  font-size: 11px;
+  color: gray;
+}
+
+.sun {
+float: left;
+margin-right: 5px;
+}
+
+li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
