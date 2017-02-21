@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+header{
+  background-image: url('../img/banner.jpg');
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+}
+header a , .cta-btn {
+  color: inherit;
+  text-decoration: none;
+  padding: 20px 30px ;
+  border-radius: 500px;
+  border: 1px solid transparent;
+
+}
+header a:hover {
+  background-color: hsla(0, 0%, 0%, .1);
+  border-color: white;
+}
+.cta-btn {
+  display: inline-block;
+  background-color: hsl(11, 80%, 57%);
+  color: white;
+}
+section:last-of-type {
+  background-color: hsl(0, 0%, 85%);
+}
+h1{
+  margin: 0;
+  font-size: 4em;
+}
+p{
+  margin: 0px;
+}
+nav{
+  padding: 10px;
+}
+ul{
+  list-style: none;
+  width: 100%;
+}
+
+li{
+  display: inline-block;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  background-color: hsla( 0 ,0%, 100%, .1);
+  border: 1px solid white;
+}
+.flower{
+float: right;
+margin-right: 5px;
+}
+ #greytext{
+   font-size: 11px;
+  color: gray;
+ }
+section{
+  padding: 50px 12%;
+  display: flex;
+}
+section article{
+  flex: 2;
+  height: 50%;
+}
+section aside{
+  flex: 1;
+}
+h2 {
+  font-size: 2.5em;
+}
+h2 + h4 {
+  margin: 0;
+  font-size: 1.25em;
+}
+aside img {
+  float: left;
+  margin-right: 15px;
+}
+aside p {
+padding-left: 85px;
+}
+aside li:last-child {
+  border: none;
+}
+aside li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+aside li:not(:first-child) {
+padding-top: 25px;
+}
+section#detail ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+section#detail li{
+  flex: 1;
+  width: 150px;
+}
+section#detail li:nth-child(2) {
+  margin: 0 25px;
+}
+section#detail li img {
+  width: 100%;
+}
+div {
+  display: inline-block;
+}
+footer ul {
+  color: lightgrey;
+  text-decoration-style: none;
+  width: 100%;
+
+}
+footer {
+  background-color: black;
+}
+footer ul li{
+  display: block;
+  border-top: 1px solid;
+  padding: 0.60em 0em;
+  border-color: hsla(0, 0%, 100%, 0.1);
+  color: hsla(0, 0%, 100%, 0.5)
+}
+footer h3 {
+  color: white;
+  padding-left: 40px;
+}
+footer li {
+  font-size: 12px;
+  padding-left: 50px;
+  /*width: 100%;*/
+}
+footer div {
+align-content: center;
+}

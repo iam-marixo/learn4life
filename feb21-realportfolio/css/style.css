@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 0%);
+  color:  hsl(300, 50%, 50%);
+  text-transform:lowercase;
+}
+nav li{
+  display: inline-block;
+  font-family: 'Cutive Mono', monospace;
+  font-weight:900;
+  text-shadow: 0px 0px 3px #000;
+}
+section{
+  padding:150px 10%;
+  background-image: url('../img/elphants.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer{
+  background-color: darkgray;
+  padding: 50px 10%;
+}
+.marisol {
+  display:flex;
+  align-items: flex-start;
+  height: 90px;
+}
