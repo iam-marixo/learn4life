@@ -1,24 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 body {
-  margin:0;
+  margin: 0;
   font-family: monospace;
+  background-color: hsl(223, 58%, 83%);
 }
 nav li{
   list-style: none;
-  margin: 0;
-  display: grid;
-  padding: 6px;
+  margin: 25px;
+  padding: 3px;
 }
 a{
   text-decoration: none;
 }
+div{
+  padding-left: 300px;
+  padding-right: 300px;
 
+}
+h1{
+  text-align: center;
+}
+p{
+margin: 25px;
+text-align: center;
+}
 footer{
   margin-top: 500px;
-  text-align: center;;
+  text-align: center;
 }
-li {
-  list-style: none;
-  padding:5px;
+.second ul {
+ list-style: none;
+}
+ul li {
+  padding:6px;
   display: inline;
+  color: hsl(0, 0%, 0%);
 }
