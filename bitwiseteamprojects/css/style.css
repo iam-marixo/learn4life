@@ -3,10 +3,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   height:50px;
+
+
 }
 body{
   margin: 0;
   color: white;
+}
+div {
+width: 1000%;
+height: 100%;
 }
 nav {
 text-align: center;
@@ -14,12 +20,12 @@ text-align: center;
 ul {
   display: flex;
   flex-direction: row;
-  padding-top: 200px;
+  padding-top: 50px;
 }
 li{
   list-style:none;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 190px;
+  margin-right: 70px;
 }
 a{
   text-decoration: none;
