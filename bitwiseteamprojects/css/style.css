@@ -42,3 +42,28 @@ a:hover{
 #contact{
   background-color: white;
 }
+
+
+
+#genres body{
+margin: 0;
+color: black;
+}
+
+#section {
+  display: flex;
+  flex-direction: row;
+}
+#section ul {
+  flex-direction: column;
+  line-height: 30px;
+}
+.hiphop{
+  padding-left: 2px;
+}
+.pop{
+  margin-right: 103px;
+}
+h3{
+  font-size:30px;
+}
