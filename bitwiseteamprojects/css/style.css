@@ -12,7 +12,7 @@ body{
   color: white;
 }
 div {
-width: 1000%;
+/*width: 10%;*/
 height: 100%;
 }
 nav {
@@ -80,19 +80,35 @@ h3{
 #marisol body{
   color: black;
 }
+header{
+  background-image: url('../img/redo hiphop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: whitesmoke;
+text-shadow: 1px 1px black;
+}
+.headingpic{
+  position: absolute;
+}
 #marisol h1{
   font-size: 50px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 #marisol p{
   text-align: center;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 #marisol h2{
   font-size:40px;
 }
 #marisol h3 {
-  padding-left:70px;
+  padding-left:0px;
 }
 #marisol {
   display: flex;
