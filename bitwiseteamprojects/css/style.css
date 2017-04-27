@@ -1,9 +1,9 @@
 
 #homepage{
-  background-image: url("../img/bitwisehomepage.jpg");
+  background-image: url("../img/Free-Hip-Hop-Wallpaper-1024x576.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height:50px;
+  height:40px;
 
 
 }
@@ -13,7 +13,7 @@ body{
 }
 div {
 /*width: 10%;*/
-height: 100%;
+height: 90%;
 }
 nav {
 text-align: center;
@@ -31,39 +31,19 @@ li{
 a{
   text-decoration: none;
 }
-a:hover{
+/*a::before hover{
+  background-color: white;
+  text-shadow: 0px 0px 3px white;
+}*/
+#first:hover{
   /*background-color: lightwhite;*/
   border-radius: 5px;
   padding: 3px;
-  color: hsl(203, 38%, 61%);
-}
-
-
-
-#contact{
+  color: black;
   background-color: white;
+  text-shadow: 1px 2px 3px black;
 }
 
-
-#genres body{
-margin: 0;
-color: black;
-font-family: 'Old Standard TT', serif;
-}
-#genres h1{
-  text-align: center;
-
-}
-
-#section {
-  display: flex;
-  flex-direction: row;
-}
-#section ul {
-  flex-direction: column;
-  line-height: 30px;
-}
-#
 .hiphop{
   padding-left: 2px;
 }
@@ -86,7 +66,7 @@ header{
   background-size: cover;
   height: 500px;
   color: whitesmoke;
-text-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;
 }
 .headingpic{
   position: absolute;
@@ -97,6 +77,26 @@ text-shadow: 1px 1px black;
   font-family: 'Raleway', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
+}
+.historyHH{
+  text-align: center;
+}
+.fingersHH{
+  text-align: center;
+  }
+.button{
+  border-radius: 3px;
+  padding: 3px;
+  color:white;
+  background-color: teal;
+  /*text-shadow: 0px 0px 3px black;*/
+}
+.button:hover{
+  border-radius: 3px;
+  padding: 3px;
+  color: black;
+  background-color: lightgray;
+  /*text-shadow: 1px 2px 3px black;*/
 }
 
 #marisol p{
@@ -110,11 +110,11 @@ text-shadow: 1px 1px black;
 #marisol h3 {
   padding-left:0px;
 }
-#marisol {
+artist {
   display: flex;
   flex-direction: row;
 }
-#marisol ul {
+#artist ul {
   flex-direction: column;
   line-height: 40px;
 }
