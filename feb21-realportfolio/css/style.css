@@ -43,10 +43,7 @@ p{
 margin: 25px;
 text-align: center;
 }
-footer{
-  margin-top: 500px;
-  text-align: center;
-}
+
 .second ul {
  list-style: none;
 }
@@ -54,4 +51,17 @@ ul li {
   padding:6px;
   display: inline;
   color: hsl(0, 0%, 0%);
+}
+
+.second{
+  text-align: center;
+  padding-left: 527px;
+}
+
+
+
+
+
+#portfolio html{
+  color: black;
 }
