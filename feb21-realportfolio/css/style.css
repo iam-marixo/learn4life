@@ -33,16 +33,14 @@ h2{
   padding-top: 80px;
   display: inline-block;
 }
-#four{
 
-}
 h1{
   text-align: center;
 }
-p{
+/*p{
 margin: 25px;
-text-align: center;
-}
+text-align: ;
+}*/
 
 .second ul {
  list-style: none;
@@ -58,10 +56,18 @@ ul li {
   padding-left: 527px;
 }
 
+#portrows{
+  margin: 0;
+}
+#back a{
+  text-align: center;
+  padding-left: 560px;
+  padding-top: 50px;
+}
+#recent{
+  display: flex;
+}
 
-
-
-
-#portfolio html{
-  color: black;
+#port{
+margin-left: 0;
 }
