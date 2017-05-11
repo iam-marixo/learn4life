@@ -59,6 +59,7 @@ h3{
 }
 #marisol body{
   color: black;
+  background-color: hsl(214, 56%, 70%);
 }
 header{
   background-image: url('../img/redo hiphop.jpg');
@@ -88,7 +89,7 @@ header{
   border-radius: 3px;
   padding: 3px;
   color:white;
-  background-color: teal;
+  background-color: hsl(214, 37%, 70%);
   /*text-shadow: 0px 0px 3px black;*/
 }
 .button:hover{
@@ -110,11 +111,13 @@ header{
 #marisol h3 {
   padding-left:0px;
 }
-artist {
-  display: flex;
-  flex-direction: row;
+#thirdpage{
+  background-color: hsl(214, 56%, 70%);
 }
-#artist ul {
-  flex-direction: column;
-  line-height: 40px;
+.dog{
+  text-align: center;
+}
+.tenbans{
+  margin-left: 0;
+  margin-right: 70px;
 }
