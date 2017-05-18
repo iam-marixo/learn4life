@@ -130,6 +130,10 @@ header{
   padding-left: 10px;
   padding: 5px;
 }
+#thirdpage h3 {
+  text-align: center;
+  padding-right: 400px;
+}
 .diva{
   display: flex;
   flex-direction: row;
@@ -137,8 +141,10 @@ header{
 .tenbans{
   margin: 0;
   margin-right: 50px;
-
+  list-style: initial;
 }
+
 .dog{
   text-align: center;
+  font-size: 300%;
 }
