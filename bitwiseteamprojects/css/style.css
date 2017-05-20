@@ -11,7 +11,7 @@ body{
   margin: 0;
   color: white;
 }
-div {
+.hiphoppic {
 /*width: 10%;*/
 height: 90%;
 }
@@ -20,15 +20,31 @@ section{
   padding-top: 600px;
 }
 .can{
-  padding-top: 25px;
+  padding-top: 29px;
+  margin-bottom: 0;
+
+}
+p{
+  padding-top: 15px;
+  margin-bottom: 0;
 }
 nav {
 text-align: center;
+display: block;
+padding: 0em 1em;
+line-height: 3em;
+background-color: hsla(0, 0%, 81%, 0.66);
+font-size: 15px;
+font-weight: 700;
+color: #FFF;
+
 }
 ul {
   display: flex;
   flex-direction: row;
-  padding-top: 50px;
+  padding-top: 4px;
+  padding-left: 20px;
+  margin-top: 60px;
 }
 li{
   list-style:none;
@@ -43,12 +59,13 @@ a{
   text-shadow: 0px 0px 3px white;
 }*/
 #first:hover{
-  /*background-color: lightwhite;*/
-  border-radius: 5px;
+  background-color: lightwhite;
+  border-radius: 27px;
   padding: 3px;
   color: black;
-  background-color: white;
-  text-shadow: 1px 2px 3px black;
+  background-color: hsl(350, 9%, 87%);
+  text-shadow: 0px 0px 16px gray;
+
 }
 
 .hiphop{
@@ -68,7 +85,7 @@ h3{
   color: black;
   background-color: hsl(214, 56%, 70%);
 }
-header{
+#mic{
   background-image: url('../img/redo hiphop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,11 +149,12 @@ header{
 }
 #thirdpage h3 {
   text-align: center;
-  padding-right: 400px;
+  font-size: 200%;
 }
 .diva{
   display: flex;
   flex-direction: row;
+  margin-left: 9px;
 }
 .tenbans{
   margin: 0;
@@ -147,4 +165,12 @@ header{
 .dog{
   text-align: center;
   font-size: 300%;
+  color: hsl(0, 0%, 53%);
+}
+#picture body{
+  color: black;
+  background-image: url("../img/bg.jpg");
+ background-repeat: no-repeat;
+background-size: cover;
+background-position: top center;
 }
