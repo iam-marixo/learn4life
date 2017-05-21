@@ -48,7 +48,7 @@ ul {
 }
 li{
   list-style:none;
-  margin-left: 190px;
+  margin-left: 102px;
   margin-right: 70px;
 }
 a{
@@ -60,8 +60,8 @@ a{
 }*/
 #first:hover{
   background-color: lightwhite;
-  border-radius: 27px;
-  padding: 3px;
+  border-radius: 37px;
+  padding: 0;
   color: black;
   background-color: hsl(350, 9%, 87%);
   text-shadow: 0px 0px 16px gray;
@@ -173,4 +173,24 @@ h3{
  background-repeat: no-repeat;
 background-size: cover;
 background-position: top center;
+}
+
+.oldschool{
+  margin-top: 15px;
+}
+
+/*.oldschool{
+  border-color: red;
+  border-width:medium;
+}*/
+
+.oldschool img{
+  height: 388px;
+  width: 323px;
+  padding: 5px;
+}
+.oldschool p {
+  font-size: 100%;
+  margin-top: 10px;
+  padding-top: 0;
 }
