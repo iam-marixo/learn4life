@@ -53,6 +53,7 @@ li{
 }
 a{
   text-decoration: none;
+  text-align: center;
 }
 /*a::before hover{
   background-color: white;
@@ -193,4 +194,19 @@ background-position: top center;
   font-size: 100%;
   margin-top: 10px;
   padding-top: 0;
+}
+.fourpage{
+	padding-top: 9px;
+	padding-right: 1px;
+}
+.fourpage a {
+  text-align: center;
+}
+.fourpage:hover{
+  border-radius: 2px;
+  color: blackhsl(303, 53%, 77%);
+  background-color: hsl(350, 9%, 87%);
+  text-shadow: 0px 0px 16px gray;
+  padding-top: 9px;
+  padding-right: 1px;
 }
